@@ -19,7 +19,7 @@ lib64/
 parts/
 annotations/
 images/
-lables/
+labels/
 sdist/
 var/
 wheels/
