@@ -1,0 +1,84 @@
+{
+    "Living Room": {
+        "last_scanned": "2026-05-13 14:22:38",
+        "objects": {
+            "couch": {
+                "confidence": 0.95,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "tv": {
+                "confidence": 0.91,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "refrigerator": {
+                "confidence": 0.76,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "microwave": {
+                "confidence": 0.52,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "laptop": {
+                "confidence": 0.4,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "bottle": {
+                "confidence": 0.33,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "book": {
+                "confidence": 0.22,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "pen": {
+                "confidence": 0.17,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "person": {
+                "confidence": 0.89,
+                "last_seen": "2026-05-13 14:22:36"
+            }
+        }
+    },
+    "Kitchen": {
+        "last_scanned": "2026-05-13 14:22:38",
+        "objects": {
+            "person": {
+                "confidence": 0.31,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "refrigerator": {
+                "confidence": 0.25,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "remote": {
+                "confidence": 0.63,
+                "last_seen": "2026-05-13 14:06:34"
+            },
+            "bowl": {
+                "confidence": 0.23,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "chair": {
+                "confidence": 0.31,
+                "last_seen": "2026-05-13 14:22:36"
+            },
+            "bottle": {
+                "confidence": 0.17,
+                "last_seen": "2026-05-13 14:22:38"
+            },
+            "handbag": {
+                "confidence": 0.31,
+                "last_seen": "2026-05-13 14:22:36"
+            },
+            "cell phone": {
+                "confidence": 0.23,
+                "last_seen": "2026-05-13 14:22:36"
+            },
+            "table": {
+                "confidence": 0.16,
+                "last_seen": "2026-05-13 14:22:36"
+            }
+        }
+    }
+}
