@@ -24,9 +24,11 @@ YOLO_Room_Obj_Detection_ChatBot_Support/
 │
 ├── vision/
 │   └── scanner.py              # YOLO-World CV2 frame processing logic
+│   └── spatial.py              # Spatial Calculations
 │
 └── cognition/
     └── agent.py                # LangGraph nodes, Memory Fetching, and Gemini generation
+    └── state.py                # Define States
 
 ```
 
@@ -76,7 +78,7 @@ GEMINI_API_KEY="your_google_gemini_api_key"
 Because this is a true embodied agent, it requires two concurrent processes to run: the daemon to watch the space, and the agent to talk to you.
 
 **Terminal 1: Start the Vision Daemon**
-Activate your environment and start the continuous camera scanner (or the video simulator if testing with MP4s).
+Activate your environment and start the continuous camera scanner (or the video simulator if testing with videos).
 
 ```bash
 python vision_video_daemon.py
@@ -101,7 +103,7 @@ python main.py
 
 1. *Intent Parse (Local Qwen):* `["tv", "bowl", "keys"]`
 2. *Memory Fetch (Python):* Scans `memory_bank.json`. Finds TV in Living Room, Bowl in Kitchen. Fails to find keys.
-3. *Generation (Gemini 1.5 Flash):* Reads the objective memory string and generates output.
+3. *Generation (Gemini 2.5 Flash):* Reads the objective memory string and generates output.
 
 **Agent Output:** > "The TV is located in the Living Room (last seen at 2026-05-13 14:22:38), and the bowl is in the Kitchen at the same time. The keys are missing from memory."
 
